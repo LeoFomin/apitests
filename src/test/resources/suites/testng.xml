@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Проверки API">
+    <test name="Базовые проверки">
+        <groups>
+            <run>
+                <include name="api"></include>
+                <exclude name="broken"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="my.tests.ApiTests"></class>
+        </classes>
+    </test>
+</suite>

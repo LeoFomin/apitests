@@ -1,0 +1,9 @@
+.allure/
+/lib/
+/.idea/
+/data/
+/logs/
+/target/
+/allure-report
+/allure-results
+/m2_repo
